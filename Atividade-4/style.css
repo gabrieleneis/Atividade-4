@@ -1,0 +1,76 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0px;
+}
+
+.container {
+    border-radius: 10px 10px 10px 10px;
+    margin: 0px;
+    padding: 30px;
+}
+
+.tipo {
+    padding: 20px;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.tipo2 {
+    padding: 20px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.tipo3 {
+    padding: 20px;
+    background-color: hsl(179, 100%, 13%);
+}
+
+.modelo {
+    margin: 0px;
+    font-family: "Big Shoulders Display";
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+
+.exp {
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    color: #fff;
+    font-size: 12px;
+}
+
+button {
+    border-radius: 20px;
+    padding: 10px;
+    border: 0px;
+    font-family: "Lexend Deca";
+}
+
+.um {
+    color: hsl(31, 77%, 52%);
+}
+
+.dois {
+    color: hsl(184, 100%, 22%);
+}
+
+.tres {
+    color: hsl(179, 100%, 13%);
+}
+
+button:hover {
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+}
+
+@media (min-width:768px) {
+    .total {
+        display: flex;
+        flex-direction: row;
+    }
+}
